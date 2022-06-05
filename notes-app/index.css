@@ -1,0 +1,48 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+#root {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+button {
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 1rem;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  background-color: #0f9d58;
+  color: white;
+  cursor: pointer;
+}
+
+button:active {
+  transform: scale(1.1);
+}
+
+.container {
+  position: relative;
+  margin: 0.5rem;
+}
+
+.container textarea {
+  background-color: #e6b905;
+  color: #1e1e1e;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  height: 100px;
+  max-width: 75ch;
+  min-width: 20ch;
+}
+
+.container a {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  cursor: pointer;
+}
